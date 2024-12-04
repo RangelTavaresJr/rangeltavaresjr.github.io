@@ -6,11 +6,6 @@ header {
     padding: 10px 20px;
 }
 
-h1{
-    color: #fff;
-    font-family: 'Bokor', sans-serif;
-}
-
 nav {
     text-align: right;
 }
@@ -54,4 +49,3 @@ span {
 #button:hover {
     transform: scale(1.08);
 }
-
