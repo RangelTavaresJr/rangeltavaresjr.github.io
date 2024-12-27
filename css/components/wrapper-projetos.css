@@ -1,0 +1,33 @@
+.wrapper-projetos {
+    margin-top: 50px;
+    display: flex;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.wrapper-projetos .img-shadow {
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0px #fff;
+}
+
+.wrapper-projetos .bshadow1 {
+    padding-top: 15px;
+    text-align: center;
+    width: 280px;
+    height: 265px;
+    background-color: #7C5E99;
+    box-shadow: 10px 10px 0px #fff;
+}
+
+.wrapper-projetos .bshadow2 {
+    padding-top: 10px;
+    text-align: center;
+    width: 280px;
+    height: 270px;
+    background-color: #0C2C85;
+    box-shadow: 10px 10px 0px #fff;
+}
