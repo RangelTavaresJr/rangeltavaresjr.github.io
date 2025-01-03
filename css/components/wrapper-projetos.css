@@ -15,19 +15,19 @@
 }
 
 .wrapper-projetos .bshadow1 {
-    padding-top: 15px;
+    padding-top: 100px;
     text-align: center;
     width: 280px;
-    height: 265px;
-    background-color: #7C5E99;
+    height: 179px;
+    background-color: #AD931E;
     box-shadow: 10px 10px 0px #fff;
 }
 
 .wrapper-projetos .bshadow2 {
-    padding-top: 10px;
+    padding-top: 110px;
     text-align: center;
     width: 280px;
-    height: 270px;
+    height: 172px;
     background-color: #0C2C85;
     box-shadow: 10px 10px 0px #fff;
 }
