@@ -1,5 +1,6 @@
 .main-footer {
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     background-color: #000;
     padding-top: 28px;
@@ -9,4 +10,15 @@
 .main-footer .action {
     margin-right: 20px;
     margin-left: 20px;
+=======
+    background-color: #000;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.main-footer .action {
+    margin-left: 20px;
+    margin-right: 20px;
+>>>>>>> 1c7f6eb9f50e7c9ea49d51f805500805f06369af
 }
