@@ -1,12 +1,16 @@
 .main-banner {
-    box-sizing: border-box;
-    background-image: url(../../assets/img/nova.JPG);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    box-sizing: border-box;    
     height: 800px;
     border-bottom: 10px solid #000;
     padding-top: 115px;
     padding-left: 90px;
+}
+
+.main-banner2 {
+    background-image: url(../../assets/img/nova.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed
 }
 
 .main-banner .wrapper {
