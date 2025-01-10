@@ -37,29 +37,30 @@
         <img src="assets/img/marcelopixel.jpg">
 
         <nav>
-            <a class="main-action" href="" lang="en">Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
+            <a class="main-action" href="#Skills" lang="en">Skills</a>
+            <a class="main-action" href="#Projetos">Projetos</a>
+            <a class="main-action" href="#Sobre">Sobre</a>
+            <a class="main-action" href="#Contato">Contatos</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
-    <section class="main-banner">
-        <div class="wrapper">
-            <div class="main-box">
-                <h1 class="main-title">Marcelo Tavares</h1>
-                <h2 class="main-subtitle">FrontEnd Developer</h2>
+    <section class="main-banner2">
+        <section class="main-banner">
+            <div class="wrapper">
+                <div class="main-box">
+                    <h1 class="main-title">Marcelo Tavares</h1>
+                    <h2 class="main-subtitle">FrontEnd Developer</h2>
+                </div>
+                
+                <div class="navigation">
+                    <a class="main-button" href="" lang="en">Download CV</a>
+                    <a class="main-button" href="">Contatos</a>
+                </div>
             </div>
-            
-            <div class="navigation">
-                <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="">Contatos</a>
-            </div>
-        </div>
+        </section>
     </section>
-
     <section class="main-section">
-        <h2 class="main-title -second">Skills</h2>
+        <h2 id="Skills" class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
             <article class="skill-tec">
@@ -108,9 +109,9 @@
                 </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="img/ico_restapi.png" all="Icone RestAPI em pixel-art">
+                <img class="icon" src="img/ico_python.png" all="Icone Python em pixel-art">
                 <div class="right">
-                    <h3 class="title">Rest API</h3>
+                    <h3 class="title">Python</h3>
                     <progress class="progress-bar" max="100" value="70">
                         70%
                     </progress>
@@ -138,7 +139,7 @@
     </section>
     
     <section class="section2">
-        <h2 class="main-title -second">Projetos</h2>
+        <h2 id="Projetos" class="main-title -second">Projetos</h2>
 
         <div class="wrapper-projetos">
             <a href="https://www.somoscooperativismo-ac.coop.br/" target="_blank">
@@ -160,7 +161,7 @@
     </section>
 
     <section class="main-section -bdBlack -bgSecond">
-        <h2 class="main-title -second">Sobre</h2>
+        <h2 id="Sobre" class="main-title -second">Sobre</h2>
 
         <section class="main-carousel">
             <button class="button-arrow -left"><span class="content">Avançar</button>
@@ -221,7 +222,7 @@
         </p>
     </section>
 
-    <form class="main-form">
+    <form id="Contato" class="main-form">
         <legend class="main-title -second">Contatos</legend>
 
         <label class="main-label" for="name">Nome</label>
