@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="css/components/main-input.css">
     <link rel="stylesheet" href="css/components/main-form.css">
 
+
+
 </head>
 <body>
     <header class="main-header">
@@ -103,8 +105,8 @@
                 <img class="icon" src="img/ico_js.png" all="Icone JS em pixel-art">
                 <div class="right">
                     <h3 class="title">JavaScript</h3>
-                    <progress class="progress-bar" max="100" value="70">
-                        70%
+                    <progress class="progress-bar" max="100" value="50">
+                        50%
                     </progress>
                 </div>
             </article>
@@ -222,22 +224,23 @@
         </p>
     </section>
 
-    <form id="Contato" class="main-form">
+    <form action="https://formsubmit.co/ajax/marcelotjrr@gmail.com" method="POST" id="Contato" class="main-form" data-form>
         <legend class="main-title -second">Contatos</legend>
-
+    
         <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text" required>
-
+        <input class="main-input" id="name" name="name" type="text" autocomplete="name" required>
+    
         <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email"type="email" required>
-
+        <input class="main-input" id="email" name="email" type="email" autocomplete="email" required>
+    
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea"id="message"required></textarea>
-
-        <button class="main-button -full" type="submit">Enviar</button>
-
+        <textarea class="main-input -textarea" id="message" name="message" autocomplete="off" required></textarea>
+    
+        <button class="main-button -full" type="submit" data-button>Enviar</button>
     </form>
     
+    <script src="js/components/app.js"></script>
     <script src="js/components/main-carousel.js"></script>
+
 </body>
 </html>
